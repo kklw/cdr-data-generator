@@ -42,7 +42,7 @@ public class App {
 				callResult = "BUSY";
 				d2 = new DateTime(t1);	
 			}
-			Float charge = r.nextFloat();
+			float charge = r.nextFloat();
 			System.out.println(id.toString()+"|"+calling_num+"|"+called_num+"|"+d1.toString()+"|"+d2.toString()+"|"+callType+"|"+charge+"|"+callResult);
 		}
 	}
